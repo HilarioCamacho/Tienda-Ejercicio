@@ -22,7 +22,11 @@ Ejercicio ejemplo implementando el framework Spring creando un sistema CRUD desa
 
 ## Pasos:
 
-1.- Crear base de datos con nombre tienda
+1.- Crear base de datos con nombre tienda dentro del gestor MySQL con el siguiente comando:
+
+    create database tienda;
+    
+*Nota: La estructura de la tabla no es requerida ya que de acuerdo al segundo link dentro del archivo al crear las entidades estas se encargan de crear la tabla correspondiente dentro del manejador lo cual permite la interacción con cada sentencia que se encuentra en el paso numero 2.
 
 *Nota: 
   Puede cambiar pero se debe actualizar el archivo application.properties cambiando el nombre de la base.
